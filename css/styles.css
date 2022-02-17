@@ -172,7 +172,6 @@ ul {
   font-weight: 500;
   line-height: 1.14;
   text-align: left;
-  /* vertical-align: top; */
   letter-spacing: 0.02em;
 }
 .site-nav-list .link:hover,
@@ -199,10 +198,19 @@ ul {
 
 /* =======section hero======= */
 .hero.section {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+
   padding-top: 200px;
   padding-bottom: 200px;
 
-  background-color: var(--bgc-hero-color);
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../imges/hero-img.svg);
   text-align: center;
 }
 .section-hero-title {

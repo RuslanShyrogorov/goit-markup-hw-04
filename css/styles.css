@@ -210,7 +210,7 @@ ul {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../imges/hero-img.svg);
+    url(../imges/hero-img.jpg);
   text-align: center;
 }
 .section-hero-title {
@@ -299,7 +299,7 @@ ul {
 }
 
 /* =======Section Our advantages =======*/
-.our-advantages .list {
+.our-advantages .card-list {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -309,7 +309,19 @@ ul {
   flex-basis: calc((100% - 4 * 30px) / 4);
   margin-left: 30px;
 }
-
+.our-advantages .over-icon {
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4fa;
+  border: transparent;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.our-advantages .icon {
+  fill: var(--title-text-color);
+}
 .our-advantages .subtitle {
   font-size: 14px;
   text-transform: uppercase;
@@ -361,7 +373,7 @@ ul {
 }
 
 .our-team .card-footer {
-  padding: 30px 0px;
+  padding: 30px 32px;
   background-color: var(--bgc-primary-color);
   border-radius: 0px 0px 4px 4px;
 }
@@ -369,6 +381,37 @@ ul {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.social-list {
+  display: flex;
+}
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-list-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.social-list-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-team .social-list-icon {
+  fill: #afb1b8;
+}
+.our-team .social-list-link:hover .social-list-icon,
+.our-team .social-list-link:focus .social-list-icon {
+  fill: var(--bgc-primary-color);
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--accent-text-color);
 }
 .our-team .subtitle {
   font-weight: 500;
@@ -379,7 +422,7 @@ ul {
 }
 .our-team .text {
   margin-top: 0px;
-  margin-bottom: 0px;
+  /* margin-bottom: 16px; */
 
   font-size: 16px;
   line-height: 1.19;
@@ -391,7 +434,9 @@ ul {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
+.footer-parts {
+  display: flex;
+}
 .footer .item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -424,6 +469,31 @@ ul {
   line-height: 1.71;
   text-align: left;
 }
+.footer-item-address {
+  margin-right: 70px;
+}
+.footer-item-social {
+  height: 80px;
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+.footer .subtitle {
+  margin-bottom: 20px;
+  color: var(--bgc-primary-color);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.footer .social-list-icon {
+  fill: var(--bgc-primary-color);
+}
+.footer .social-list-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer .social-list-link:hover,
+.footer .social-list-link:focus {
+  background-color: var(--accent-text-color);
+}
+
 /* =======Portfolio =======*/
 .work-examples .list-buttons {
   display: flex;

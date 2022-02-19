@@ -33,25 +33,33 @@
                 </ul>
             </nav>
             <ul class="list contacts-list">
-                <li class="item">
-                    <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+                <li class="item contacts-item">
+                    <a href="mailto:info@devstudio.com" class="link contacts-link">info@devstudio.com
+                        <svg class="contacts-link-icon" width="16" height="12">
+                            <use href="./imges/sprite.svg#email"></use>
+                        </svg>
+                    </a>
                 </li>
-                <li class="item">
-                    <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+                <li class="item contacts-item">
+                    <a href="tel:+380961111111" class="link contacts-link">+38 096 111 11 11
+                        <svg class="contacts-link-icon" width="10" height="16">
+                            <use href="./imges/sprite.svg#smartphone"></use>
+                        </svg>
+                    </a>
                 </li>
             </ul>
         </div>
     </header>
+
     <main>
         <!-- Секция герой -->
-        <!-- <div class="conteiner"> -->
             <section class="hero section">
                 <div class="conteiner">
                     <h1 class="section-hero-title">Эффективные решения для вашего бизнеса</h1>
                     <button type="button" class="button hero">Заказать услугу</button>
                 </div>
             </section>
-        <!-- </div> -->
+
         <!-- Секция Наши преимущества -->
         <section class="our-advantages section">
             <div class="conteiner">
@@ -96,6 +104,7 @@
                 </ul>
             </div>
         </section>
+
         <!-- Секция Чем мы занимаемся -->
         <section class="what-we-do section">
             <div class="conteiner">
@@ -276,44 +285,55 @@
             </div>
         </section>
 
-        <section class="regular-clients">
+        <section class="regular-clients section">
             <div class="conteiner">
                 <h2 class="title">Постоянные клиенты</h2>
                 <ul class="list client-list">
                     <li class="client-item">
                         <a href="" class="client-link">
-                            <svg class="icon"></svg>
+                            <svg class="client-icon"  width="106" height="60">
+                                <use href="./imges/sprite.svg#client1"></use>
+                            </svg>
                         </a>
                     </li>
                     <li class="client-item">
                         <a href="" class="client-link">
-                            <svg class="icon"></svg>
+                            <svg class="client-icon"  width="106" height="60">
+                                <use href="./imges/sprite.svg#client2"></use>
+                            </svg>
                         </a>
                     </li>
                     <li class="client-item">
                         <a href="" class="client-link">
-                            <svg class="icon"></svg>
+                            <svg class="client-icon"  width="106" height="60">
+                                <use href="./imges/sprite.svg#client3"></use>
+                            </svg>
                         </a>
                     </li>
                     <li class="client-item">
                         <a href="" class="client-link">
-                            <svg class="icon"></svg>
+                            <svg class="client-icon"  width="106" height="60">
+                                <use href="./imges/sprite.svg#client4"></use>
+                            </svg>
                         </a>
                     </li>
                     <li class="client-item">
                         <a href="" class="client-link">
-                            <svg class="icon"></svg>
+                            <svg class="client-icon"  width="106" height="60">
+                                <use href="./imges/sprite.svg#client5"></use>
+                            </svg>
                         </a>
                     </li>
                     <li class="client-item">
                         <a href="" class="client-link">
-                            <svg class="icon"></svg>
+                            <svg class="client-icon"  width="106" height="60">
+                                <use href="./imges/sprite.svg#client6"></use>
+                            </svg>
                         </a>
                     </li>
                 </ul>
             </div>
         </section>
-
     </main>
 
     <footer class="footer section">
@@ -370,7 +390,6 @@
             </address>
         </div>
     </footer>
-
 </body>
 
 </html>

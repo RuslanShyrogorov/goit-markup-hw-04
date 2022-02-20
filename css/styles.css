@@ -266,7 +266,7 @@ ul {
   letter-spacing: 0.06em;
 }
 
-.button.hero {
+.hero .button {
   padding: 10px 32px;
   min-width: 200px;
 
